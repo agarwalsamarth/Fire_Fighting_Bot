@@ -11,6 +11,6 @@ Robot chassis with motors and wheel (any type),
 A small can, 
 Connecting wires, 
 ## Design and Working
-The main brain of this project is the Arduino, but in-order to sense fire we use the Fire sensor module (flame sensor) . These sensors have an IR Receiver (Photodiode) which is used to detect the fire. When fire burns it emits a small amount of Infra-red light, this light will be received by the IR receiver on the sensor module. Then we use an Op-Amp to check for change in voltage across the IR Receiver, so that if a fire is detected the output  pin (DO) will give 0V(LOW) and if the is no fire the output pin will be 5V(HIGH). 
+The main brain of this project is the Arduino, but in-order to sense fire we use the Fire sensor module (flame sensor) . These sensors have an IR Receiver (Photodiode) which is used to detect the fire. When fire burns, it emits a small amount of Infra-red light, this light will be received by the IR receiver on the sensor module. Then we use an Op-Amp to check for change in voltage across the IR Receiver, so that if a fire is detected the output  pin (DO) will give 0V(LOW) and if the is no fire the output pin will be 5V(HIGH). 
 ## How to run
 use Arduino IDE to upload this code in arduino.
